@@ -1,0 +1,39 @@
+{
+  "name": "env-template-guardian",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI & library that validates .env against .env.example with type inference and interactive autofix",
+  "author": "Shailja",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "env-guardian": "bin/env-guardian.js",
+    "env-template-guardian": "bin/env-guardian.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "env",
+    "dotenv",
+    "validation",
+    "cli",
+    "ci",
+    "env-validator",
+    "zero-dependency",
+    "type-inference"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/env-guardian.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
