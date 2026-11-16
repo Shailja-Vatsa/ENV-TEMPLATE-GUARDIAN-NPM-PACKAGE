@@ -19,6 +19,14 @@
     "README.md",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shailja-Vatsa/ENV-TEMPLATE-GUARDIAN-NPM-PACKAGE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shailja-Vatsa/ENV-TEMPLATE-GUARDIAN-NPM-PACKAGE/issues"
+  },
+  "homepage": "https://github.com/Shailja-Vatsa/ENV-TEMPLATE-GUARDIAN-NPM-PACKAGE#readme",
   "keywords": [
     "env",
     "dotenv",
