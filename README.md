@@ -59,6 +59,3 @@ if (!report.valid) {
 }
 ```
 
-## License
-
-MIT
